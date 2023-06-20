@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .container{
+            border: 5px solid lightcoral;
+            height: 600px;
+            width: 600px;
+        }
+        .box{
+            height:100px;
+            width: 100px;
+        }
+        .box1{
+            background-color: aquamarine;
+            position:sticky;
+            top: 200px;
+        }
+        .box2{
+            background-color: #39a7f0;
+            position: relative;
+            top: 400px;
+            left: 500px;
+        
+        }
+        .box3{
+            background-color: #e943e9;
+            position: fixed;
+            bottom: 300px;
+            left: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="container">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+        </div>
+    </div>
+</body>
+</html>
